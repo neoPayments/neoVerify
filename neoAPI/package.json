@@ -1,0 +1,28 @@
+{
+  "name": "neoverify-api",
+  "version": "0.0.1",
+  "description": "API for neoVerify and all its services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoPayments/neoVerify.git"
+  },
+  "keywords": [
+    "api",
+    "rest-api"
+  ],
+  "author": "noahdoespython",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoPayments/neoVerify/issues"
+  },
+  "homepage": "https://github.com/neoPayments/neoVerify#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
